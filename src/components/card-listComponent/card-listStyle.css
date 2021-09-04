@@ -4,19 +4,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
-  overflow-x: none;
+  overflow-x: inherit;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1170px) {
   .card-list {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 625px) {
   .card-list {
-    display: grid;
     grid-template-columns: 1fr;
   }
 } ;
