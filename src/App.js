@@ -25,6 +25,7 @@ class App extends Component {
     const { monsters, searchfield } = this.state
     const filteredMonsters = monsters.filter(monster =>
       monster.name.toLowerCase().includes(searchfield.toLowerCase()))
+
     return (
       <div className="App">
         <h1>Monster Rolodex</h1>
